@@ -1,87 +1,76 @@
-# Welcome to React Router!
+# Inventory CRUD App
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+A basic full-stack inventory CRUD application built for learning and experimenting with modern web technologies including React Router v7, TypeScript, Drizzle ORM, and PostgreSQL.
 
 ---
 
-Built with ❤️ using React Router.
+## 🚀 Tech Stack
+
+### Frontend
+- React
+- React Router v7
+- TypeScript
+- Tailwind CSS
+- Lucide React Icons
+
+### Backend / Database
+- Drizzle ORM
+- PostgreSQL
+
+---
+
+## ✨ Features
+
+- Add Products
+- Edit Products
+- Delete Products
+- View All Products
+- Dynamic CRUD Operations
+- Responsive Dark UI
+- Fetcher-based Updates
+- Product Stock Management
+- Inventory Dashboard UI
+- TypeScript Integration
+- React Router Loaders & Actions
+
+---
+
+## 📸 UI Highlights
+
+- Modern dark theme
+- Glassmorphism inspired cards
+- Cyan accent color palette
+- Responsive layout
+- Smooth hover effects
+
+---
+
+## 🧠 What I Learned
+
+This project was built mainly for learning and understanding:
+
+- React Router v7
+- TypeScript basics
+- Loaders & Actions
+- useFetcher()
+- CRUD operations
+- PostgreSQL integration
+- Drizzle ORM
+- Form handling
+- State management
+- Component structuring
+- Git & GitHub workflow
+
+---
+
+## 📂 Project Structure
+
+```bash
+routes/
+ ├── home.tsx
+ ├── products.tsx
+ ├── product.$id.tsx
+
+drizzle/
+ ├── db.ts
+ ├── schema.ts

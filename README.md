@@ -1,4 +1,4 @@
-# Inventory CRUD App
+# React Router Drizzle CRUD App
 
 A basic full-stack inventory CRUD application built for learning and experimenting with modern web technologies including React Router v7, TypeScript, Drizzle ORM, and PostgreSQL.
 
